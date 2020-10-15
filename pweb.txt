@@ -1,0 +1,10 @@
+kelompok :	23
+Nama 	 : 	Ivanri fleri simanjuntak 192410101114
+		Pinsensius Andreas 192410101125
+Tema 	 : 	pariwisata
+Kelas	 :	Pweb C
+Tema	 :	Pariwisata
+
+link figma : https://www.figma.com/file/Piji8VHLALgDMtDSEVBzjk/Mockup-PWeb?node-id=49%3A50
+
+link github : https://github.com/dagemaos
