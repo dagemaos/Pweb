@@ -1,0 +1,109 @@
+body{
+    font-family: 'Stylish', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    height: 130px;
+    padding: 0 90px ;
+}
+
+.header img{
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+}
+
+.header ul li{
+    display: flex;
+    height: 100%;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.header ul li a{
+    text-decoration: none;
+    margin: auto 0;
+    color: black;
+}
+
+.container{
+    margin: 50px;
+    position: relative;
+}
+
+.container h3{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.kotak{
+    display: flex;
+    flex-direction: column;
+    border: black solid 3px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 20px;
+    width: 400px;
+}
+
+.dua select{
+    height: 20px;
+    width: 250px;
+}
+
+
+.semi-kotak{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.no-telp{
+    display: flex;
+}
+
+.no-telp input{
+    margin-left: 5px;
+}
+
+.semi-kotak label{
+    margin-right: 20px;
+}
+
+.container .submit{
+    align-self: flex-end;
+}
+
+.kotak.dua{
+    height: 200px ;
+}
+
+.tombol{
+    width: 100px;
+    height: 30px;
+    background-color: #CD5702;
+    display: flex;
+    margin: 40px;
+    position: absolute;
+    right: 0;
+}
+
+.tombol a{
+    margin: auto;
+    color: black;
+    text-decoration: none;
+}
