@@ -12,6 +12,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Stylish&display=swap');
     </style>
+    <script src="javascript/pemesanan.js"></script>
 </head>
 
 <body>
@@ -33,7 +34,7 @@
         <div class="kotak satu">
             <label>
                 <span>Nama Lengkap</span>
-                <input type="text">
+                <input type="text" id="nama">
             </label>
             <div class="semi-kotak">
                 <label>
@@ -43,12 +44,12 @@
                             <option>+62</option>
                             <option>+1</option>
                         </select>
-                        <input type="number">
+                        <input type="text" id="number">
                     </div>
                 </label>
                 <label>
                     <span>Email</span>
-                    <input type="email">
+                    <input type="email" id="email">
                 </label>
             </div>
         </div>
@@ -63,15 +64,15 @@
             </label>
             <label>
                 <span>Nama Lengkap (sesuai KTP/SIM/PASPOR)</span>
-                <input type="text">
+                <input type="text" id="namalkp">
             </label>
             <label>
                 <span>Kewarganegaraan</span>
-                <input type="search">
+                <input type="search" id="kewarganegaraan">
             </label>
         </div>
         <div class="tombol">
-            <a href="pembayaran.html">Lanjutkan</a>
+            <a href="pembayaran.html" onclick="validasi()">Lanjutkan</a>
         </div>
     </div>
     

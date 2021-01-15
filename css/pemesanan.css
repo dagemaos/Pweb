@@ -107,3 +107,25 @@ input{
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1200px){
+    .semi-kotak{
+        flex-direction: column;
+    }
+
+    .kotak.satu{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .kotak{
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .kotak input{
+        width: 300px;
+    }
+}

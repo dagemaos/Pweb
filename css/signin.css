@@ -59,66 +59,17 @@ h2{
     align-items: center ;
 }
 
-.alternatif{
-    display: flex;
-    margin-top: 20px;
-}
-
-
-.form .alternatif .google{
-    width: 200px;
-    height: 35px;
-    background-color: white;
-    margin-right: 5px;
-    display: flex;
-}
-
-.form .alternatif .fb{
-    width: 200px;
-    height: 35px;
-    background-color: white;
-    margin-left: 5px;
-    display: flex;
-}
-
-.form .alternatif .google a,.form .alternatif .fb a{
-    margin: auto;
-    text-decoration: none;
-}
-
-.container-dua .form .alternatif img{
-    width: 30px;
-    margin: 5px 0;    
-    margin-right: 20px;
-}
-
-.pembatas{
-    margin: 30px;
-}
-
 input{
-    display: block; 
+    display: block;
+    height: 30px;
+    border-radius: 10px;
 }
 
 .inputan{
     width: 300px;
     height: 400px;
+    margin-top: 50px;
 }
-
-.checkbox label{
-    display: flex;
-    justify-content: left;
-}
-
-.checkbox input{
-    flex: 1;
-}
-
-.checkbox p{
-    flex: 9;
-    font-size: 12px;
-}
-
 
 .inputan div a{
     text-decoration: none;

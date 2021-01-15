@@ -148,3 +148,14 @@ body{
     color: black;
     text-decoration: none;
 }
+
+@media screen and (max-width: 700px){
+    .semi-container{
+        height: 450px;
+        flex-direction: column;
+    }
+
+    .tombol{
+        bottom: -300px;
+    }
+}
